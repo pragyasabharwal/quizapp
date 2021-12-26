@@ -35,7 +35,7 @@ export const Play = ({ setCount, questions, count, setScore }) => {
       <div
         className="submit"
         onClick={() => {
-          count === 9 && navigate("/score");
+          count === 10 && navigate("/score");
         }}
       >
         Submit

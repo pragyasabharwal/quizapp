@@ -12,6 +12,8 @@ function App() {
   const [score, setScore] = useState(0);
   const navigate = useNavigate();
 
+  console.log(count)
+
   useEffect(() => {
     (async function () {
       try {
@@ -26,7 +28,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (count === 9) {
+    if (count === 10) {
       navigate("/score");
     }
   });
