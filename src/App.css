@@ -2,37 +2,53 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-content: center;
+  margin: 2em;
+  font-size: 1.5em;
+}
+
+.arrow {
+  margin: 0 1em;
+  color: red;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 1em;
+}
+
+.submit {
+  border: none;
+  background-color: green;
+  font-size: 15px;
   color: white;
+  padding: 0.5em 1em;
+  font-weight: bolder;
+  width: 20%;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.questions {
+  border: 2px solid black;
+  width: 50%;
+  margin: 1em auto;
+  padding: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reviews {
+  border: 2px solid black;
+  width: 10%;
+  margin: 1em;
+  padding: 2em;
+}
+
+.row {
+  display: flex;
 }
